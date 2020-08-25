@@ -75,7 +75,8 @@
 1. Wait untill the cluster is up running (check if master and 2 nodes got created on your EC2 dashboard) then Validate your cluster and login in it
      ```sh
       kops validate cluster   (to validate your cluster)
-      ssh -i ~/.ssh/id_rsa ubuntu@api.demo.k8s.valaxy.net     (to login in to your cluster)
+      ssh -i ~/.ssh/id_rsa ubuntu@api.demo.k8s.valaxy.net     (to login in to your master server)
+      #remember you can either use the above command to login in your master or you can go on the regular way to login using Mobxterm)
     ```
 
 1. To list nodes
