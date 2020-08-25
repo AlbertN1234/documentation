@@ -43,6 +43,8 @@
    Route53 --> hosted zones --> created hosted zone  
    Domain Name: valaxy.net
    Type: Private hosted zone for Amzon VPC
+   Region: the same region provided on the previous question
+   VPC: you can use your default vpc or the vpc that will be provided to you
    ```
 
 1. create an S3 bucket
