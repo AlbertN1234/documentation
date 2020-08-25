@@ -64,6 +64,7 @@
 1. Create kubernetes cluster definitions on S3 bucket
    ```sh
    kops create cluster   --cloud=aws   --zones=ap-south-1b (availability zone of your instance) --name=demo.k8s.valaxy.net (name of the cluster) --dns-zone=valaxy.net (name of the dns)   --dns private 
+   #remove all the description in the parenthesis when you want to run the command. They are only there for comments
     ```
 
 1. Create kubernetes cluser
