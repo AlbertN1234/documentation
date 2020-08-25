@@ -67,14 +67,15 @@
    #remove all the description in the parenthesis when you want to run the command. They are only there for comments
     ```
 
-1. Create kubernetes cluser
+1. Create kubernetes cluster
     ```sh
     kops update cluster demo.k8s.valaxy.net --yes
     ```
 
-1. Validate your cluster
+1. Wait untill the cluster is up running (check if master and 2 nodes got created on your EC2 dashboard) then Validate your cluster and login in it
      ```sh
-      kops validate cluster
+      kops validate cluster   (to validate your cluster)
+      ssh -i ~/.ssh/id_rsa ubuntu@api.demo.k8s.valaxy.net     (to login in to your cluster)
     ```
 
 1. To list nodes
