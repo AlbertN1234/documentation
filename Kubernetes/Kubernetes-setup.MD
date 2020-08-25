@@ -32,9 +32,10 @@
    run this command and provide the details below:  aws configure
    AWS Access Key ID: (if you create a user instead of a role, you need to provide this info. If you create a role, just hit 'enter' on the keyboard)
    AWS Secret Access Key: (if you create a user instead of a role, you need to provide this info. If you create a role, just hit 'enter' on the keyboard)
-   region: (enter the region where your vpc is located or the region given to you)
+   Default region name: (enter the region where your vpc is located or the region given to you)
+   Default output format: (hit 'enter' keyboard)
    
-   
+
     ```
 
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
