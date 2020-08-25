@@ -29,13 +29,17 @@
 1. Attach IAM role to ubuntu instance
    ```sh
    # Note: If you create IAM user with programmatic access then provide Access keys. Otherwise region information is enough
+   run this command and provide the details below:  aws configure
+   AWS Access Key ID: (if you create a user instead of a role, you need to provide this info. If you create a role, just hit 'enter' on the keyboard)
+   AWS Secret Access Key: (if you create a user instead of a role, you need to provide this info. If you create a role, just hit 'enter' on the keyboard)
+   region: (enter the region where your vpc is located or the region given to you)
+   
    
     ```
 
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
    ```sh
-   run this command and provide the details below:  aws configure
-   Routeh53 --> hosted zones --> created hosted zone  
+   Route53 --> hosted zones --> created hosted zone  
    Domain Name: valaxy.net
    Type: Private hosted zone for Amzon VPC
    ```
