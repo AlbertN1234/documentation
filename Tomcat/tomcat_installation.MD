@@ -37,7 +37,7 @@ tomcatup
 ```
 #### Check point :
 Access tomcat application from browser on prot 8090  
- - http://<Public_IP>:8090
+ - http://<Public_IP>:8080
 
 1. now application is accessible on port 8090. but tomcat application doesnt allow to login from browser. changing a default parameter in context.xml does address this issue
    ```sh
